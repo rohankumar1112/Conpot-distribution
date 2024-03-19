@@ -1,0 +1,17 @@
+beautifulsoup4
+bottle
+charset-normalizer
+crc16
+cybox
+gevent>=1.0
+hpfeeds
+jinja2
+libtaxii>=1.1.0
+lxml
+modbus-tk
+pymysql
+pysnmp>=4.2.4
+requests
+sphinx
+stix
+xlrd
