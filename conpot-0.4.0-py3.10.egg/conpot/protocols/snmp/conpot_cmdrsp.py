@@ -134,7 +134,7 @@ class c_GetCommandResponder(cmdrsp.GetCommandResponder, conpot_extension):
             self.log(snmp_version, 'Get', addr, varBinds, rspVarBinds)
 
         # apply tarpit delay
-        if self.tarpit is not 0:
+        if self.tarpit != 0:
             self.do_tarpit(self.tarpit)
 
         # send response
@@ -179,7 +179,7 @@ class c_NextCommandResponder(cmdrsp.NextCommandResponder, conpot_extension):
                     rspVarBinds = rspModBinds
 
                 # apply tarpit delay
-                if self.tarpit is not 0:
+                if self.tarpit != 0:
                     self.do_tarpit(self.tarpit)
 
                 # send response
@@ -249,7 +249,7 @@ class c_BulkCommandResponder(cmdrsp.BulkCommandResponder, conpot_extension):
             self.log(snmp_version, 'Bulk', addr, varBinds, rspVarBinds)
 
         # apply tarpit delay
-        if self.tarpit is not 0:
+        if self.tarpit != 0:
             self.do_tarpit(self.tarpit)
 
         # send response
@@ -284,7 +284,7 @@ class c_SetCommandResponder(cmdrsp.SetCommandResponder, conpot_extension):
         rspVarBinds = None
 
         # apply tarpit delay
-        if self.tarpit is not 0:
+        if self.tarpit != 0:
             self.do_tarpit(self.tarpit)
 
         try:
