@@ -107,7 +107,9 @@ class GridPotSimulator(object):
         #databus.set_value('register_1', self._get_energy_in_lowres)
         
         request = 'http://' + self.gridlabd_ip + ':' + str(self.gridlabd_port) + '/output/' + self.gridpotmodel_file
+        print("***************************************************************************************")
         print (request)
+        print("***************************************************************************************")
         response = urllib.request.urlopen(request)
         self.gridpotmodel = response.read()
         print (self.gridpotmodel)
@@ -119,3 +121,27 @@ class GridPotSimulator(object):
         
         gevent.spawn(self.poll_gridlabd)
         # end iniitialize
+
+        
+        # request = 'http://' + self.gridlabd_ip + ':' + str(self.gridlabd_port) + '/output/' + self.gridpotmodel_file
+        # print(request)
+
+        # retry_count = 3  # Number of retries
+        # retry_delay = 5  # Delay between retries in seconds
+
+        # for attempt in range(retry_count):
+        #     try:
+        #         response = urllib.request.urlopen(request)
+        #         self.gridpotmodel = response.read()
+        #         print(self.gridpotmodel)
+        #         if self.gridpotmodel is not None:
+        #             self.setup_gl_objects()
+        #             break  # Exit the loop if successful
+        #     except urllib.error.URLError as e:
+        #         print(f"Attempt {attempt + 1} failed: {e}")
+        #         if attempt < retry_count - 1:
+        #             print(f"Retrying in {retry_delay} seconds...")
+        #             time.sleep(retry_delay)
+        # else:
+        #     print("Could not get the .GPM model from GridLAB-D after multiple attempts. Exiting.")
+        #     exit(1)

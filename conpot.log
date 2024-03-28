@@ -1,0 +1,543 @@
+2024-03-22 22:40:11,687 Starting Conpot using template: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot
+2024-03-22 22:40:11,687 Starting Conpot using configuration found in: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/conpot.cfg
+2024-03-22 22:40:11,700 Resetting databus.
+2024-03-22 22:40:11,700 Initializing databus using /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot/template.xml.
+2024-03-22 22:40:11,703 Initializing power_simulator with conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator as a function.
+2024-03-22 22:40:11,726 DataBus: Storing key: [power_simulator] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7d9da09c58d0>]
+2024-03-22 22:40:11,727 Initializing gridpot_obj with "" as a value.
+2024-03-22 22:40:11,727 DataBus: Storing key: [gridpot_obj] value: []
+2024-03-22 22:40:11,728 Initializing gridlabd_ip with "localhost" as a value.
+2024-03-22 22:40:11,728 DataBus: Storing key: [gridlabd_ip] value: [localhost]
+2024-03-22 22:40:11,729 Initializing gridlabd_port with "6267" as a value.
+2024-03-22 22:40:11,729 DataBus: Storing key: [gridlabd_port] value: [6267]
+2024-03-22 22:40:11,730 Initializing gridpotmodel_file with "IEEE_13_Node_Test_Feeder.gpm" as a value.
+2024-03-22 22:40:11,730 DataBus: Storing key: [gridpotmodel_file] value: [IEEE_13_Node_Test_Feeder.gpm]
+2024-03-22 22:40:11,731 Initializing conpot_name with "conpot1" as a value.
+2024-03-22 22:40:11,731 DataBus: Storing key: [conpot_name] value: [conpot1]
+2024-03-22 22:40:11,732 Initializing FacilityName with "Mouser Factory" as a value.
+2024-03-22 22:40:11,733 DataBus: Storing key: [FacilityName] value: [Mouser Factory]
+2024-03-22 22:40:11,733 Initializing SystemName with "Mars Solar Power Co" as a value.
+2024-03-22 22:40:11,734 DataBus: Storing key: [SystemName] value: [Mars Solar Power Co]
+2024-03-22 22:40:11,734 Initializing SystemDescription with "Siemens, SIMATIC, S7-200" as a value.
+2024-03-22 22:40:11,734 DataBus: Storing key: [SystemDescription] value: [Siemens, SIMATIC, S7-200]
+2024-03-22 22:40:11,735 Initializing Uptime with conpot.emulators.misc.uptime.Uptime as a function.
+2024-03-22 22:40:11,739 DataBus: Storing key: [Uptime] value: [<conpot.emulators.misc.uptime.Uptime object at 0x7d9da09c4520>]
+2024-03-22 22:40:11,740 Initializing sysObjectID with "0.0" as a value.
+2024-03-22 22:40:11,741 DataBus: Storing key: [sysObjectID] value: [0.0]
+2024-03-22 22:40:11,742 Initializing sysContact with "Siemens AG" as a value.
+2024-03-22 22:40:11,743 DataBus: Storing key: [sysContact] value: [Siemens AG]
+2024-03-22 22:40:11,743 Initializing sysName with "CP 443-1 EX40" as a value.
+2024-03-22 22:40:11,744 DataBus: Storing key: [sysName] value: [CP 443-1 EX40]
+2024-03-22 22:40:11,744 Initializing sysLocation with "Venus" as a value.
+2024-03-22 22:40:11,745 DataBus: Storing key: [sysLocation] value: [Venus]
+2024-03-22 22:40:11,745 Initializing sysServices with "72" as a value.
+2024-03-22 22:40:11,746 DataBus: Storing key: [sysServices] value: [72]
+2024-03-22 22:40:11,746 Initializing memoryModbusSlave1BlockA with [random.randint(0,1) for b in range(0,128)] as a value.
+2024-03-22 22:40:11,747 DataBus: Storing key: [memoryModbusSlave1BlockA] value: [[1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0]]
+2024-03-22 22:40:11,748 Initializing memoryModbusSlave1BlockB with [random.randint(0,1) for b in range(0,32)] as a value.
+2024-03-22 22:40:11,748 DataBus: Storing key: [memoryModbusSlave1BlockB] value: [[0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1]]
+2024-03-22 22:40:11,748 Initializing memoryModbusSlave2BlockC with [random.randint(0,1) for b in range(0,8)] as a value.
+2024-03-22 22:40:11,749 DataBus: Storing key: [memoryModbusSlave2BlockC] value: [[1, 0, 1, 0, 1, 0, 1, 0]]
+2024-03-22 22:40:11,749 Initializing memoryModbusSlave2BlockD with [0 for b in range(0,32)] as a value.
+2024-03-22 22:40:11,749 DataBus: Storing key: [memoryModbusSlave2BlockD] value: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+2024-03-22 22:40:11,750 Initializing Copyright with "Original Siemens Equipment" as a value.
+2024-03-22 22:40:11,750 DataBus: Storing key: [Copyright] value: [Original Siemens Equipment]
+2024-03-22 22:40:11,750 Initializing s7_id with "88111222" as a value.
+2024-03-22 22:40:11,750 DataBus: Storing key: [s7_id] value: [88111222]
+2024-03-22 22:40:11,751 Initializing s7_module_type with "IM151-8 PN/DP CPU" as a value.
+2024-03-22 22:40:11,751 DataBus: Storing key: [s7_module_type] value: [IM151-8 PN/DP CPU]
+2024-03-22 22:40:11,751 Initializing empty with "" as a value.
+2024-03-22 22:40:11,751 DataBus: Storing key: [empty] value: []
+2024-03-22 22:40:11,760 DataBus: Get value from key: [conpot_name]
+2024-03-22 22:40:11,761 DataBus: Get value from key: [gridpotmodel_file]
+2024-03-22 22:40:11,762 DataBus: Get value from key: [gridlabd_ip]
+2024-03-22 22:40:11,762 DataBus: Get value from key: [gridlabd_port]
+2024-03-22 22:40:11,763 DataBus: Storing key: [gridpot_obj] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7d9da09c58d0>]
+2024-03-22 22:40:11,807 Starting new HTTP connection (1): www.telize.com:80
+2024-03-22 22:40:12,164 http://www.telize.com:80 "GET /ip HTTP/1.1" 301 162
+2024-03-22 22:40:12,167 Starting new HTTPS connection (1): www.telize.com:443
+2024-03-22 22:40:13,011 Could not fetch public ip from http://www.telize.com/ip
+2024-03-22 22:40:13,013 Starting new HTTP connection (1): queryip.net:80
+2024-03-22 22:40:13,222 Could not fetch public ip from http://queryip.net/ip/
+2024-03-22 22:40:13,224 Starting new HTTP connection (1): ifconfig.me:80
+2024-03-22 22:40:13,686 http://ifconfig.me:80 "GET /ip HTTP/1.1" 200 15
+2024-03-22 22:40:13,689 Fetched 122.164.243.229 as external ip.
+2024-03-22 22:40:13,706 Added slave with id 1.
+2024-03-22 22:40:13,707 DataBus: Get value from key: [memoryModbusSlave1BlockA]
+2024-03-22 22:40:13,707 Added block memoryModbusSlave1BlockA to slave 1. (type=1, start=1, size=128)
+2024-03-22 22:40:13,708 DataBus: Get value from key: [memoryModbusSlave1BlockB]
+2024-03-22 22:40:13,708 Added block memoryModbusSlave1BlockB to slave 1. (type=2, start=10001, size=32)
+2024-03-22 22:40:13,709 Added slave with id 2.
+2024-03-22 22:40:13,709 DataBus: Get value from key: [memoryModbusSlave2BlockC]
+2024-03-22 22:40:13,710 Added block memoryModbusSlave2BlockC to slave 2. (type=4, start=30001, size=8)
+2024-03-22 22:40:13,710 DataBus: Get value from key: [memoryModbusSlave2BlockD]
+2024-03-22 22:40:13,711 Added block memoryModbusSlave2BlockD to slave 2. (type=3, start=40001, size=8)
+2024-03-22 22:40:13,711 Conpot modbus initialized
+2024-03-22 22:40:13,712 Found and enabled ('modbus', <class 'conpot.protocols.modbus.modbus_server.ModbusServer'>) protocol.
+2024-03-22 22:40:13,718 Conpot debug info: S7 SSL/SZL: {'W#16#xy1C': {'W#16#0001': 'SystemName', 'W#16#0002': 'SystemDescription', 'W#16#0003': 'FacilityName', 'W#16#0004': 'Copyright', 'W#16#0005': 's7_id', 'W#16#0007': 's7_module_type', 'W#16#000A': 'empty', 'W#16#000B': 'empty'}, 'W#16#xy11': {'W#16#0001': 'empty', 'W#16#0006': 'empty'}}
+2024-03-22 22:40:13,718 Conpot S7Comm initialized
+2024-03-22 22:40:13,719 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2024-03-22 22:40:13,719 No kamstrup_meter template found. Service will remain unconfigured/stopped.
+2024-03-22 22:40:13,719 No kamstrup_management template found. Service will remain unconfigured/stopped.
+2024-03-22 22:40:13,724 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2024-03-22 22:40:13,729 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2024-03-22 22:40:13,730 No proxy template found. Service will remain unconfigured/stopped.
+2024-03-22 22:40:13,730 Modbus server started on: ('0.0.0.0', 502)
+2024-03-22 22:40:13,731 S7Comm server started on: ('0.0.0.0', 102)
+2024-03-22 22:40:13,732 HTTP server started on: ('0.0.0.0', 80)
+2024-03-22 22:40:14,007 Done scanning for mib files, recursive scan was initiated from 1 directories and found 0 MIB files of 0 scanned files.
+2024-03-22 22:40:14,008 DataBus: Get value from key: [SystemDescription]
+2024-03-22 22:40:14,016 Registered: OID (1, 3, 6, 1, 2, 1, 1, 1) Instance (0,) ASN.1 (sysDescr @ SNMPv2-MIB) value Siemens, SIMATIC, S7-200 dynrsp.
+2024-03-22 22:40:14,017 DataBus: Get value from key: [Uptime]
+2024-03-22 22:40:14,024 Registered: OID (1, 3, 6, 1, 2, 1, 1, 3) Instance (0,) ASN.1 (sysUpTime @ SNMPv2-MIB) value 3 dynrsp.
+2024-03-22 22:40:14,025 DataBus: Get value from key: [sysContact]
+2024-03-22 22:40:14,032 Registered: OID (1, 3, 6, 1, 2, 1, 1, 4) Instance (0,) ASN.1 (sysContact @ SNMPv2-MIB) value Siemens AG dynrsp.
+2024-03-22 22:40:14,033 DataBus: Get value from key: [sysName]
+2024-03-22 22:40:14,039 Registered: OID (1, 3, 6, 1, 2, 1, 1, 5) Instance (0,) ASN.1 (sysName @ SNMPv2-MIB) value CP 443-1 EX40 dynrsp.
+2024-03-22 22:40:14,040 DataBus: Get value from key: [sysLocation]
+2024-03-22 22:40:14,048 Registered: OID (1, 3, 6, 1, 2, 1, 1, 6) Instance (0,) ASN.1 (sysLocation @ SNMPv2-MIB) value Venus dynrsp.
+2024-03-22 22:40:14,049 DataBus: Get value from key: [sysServices]
+2024-03-22 22:40:14,054 Registered: OID (1, 3, 6, 1, 2, 1, 1, 7) Instance (0,) ASN.1 (sysServices @ SNMPv2-MIB) value 72 dynrsp.
+2024-03-22 22:40:14,055 SNMP server started on: ('0.0.0.0', 161)
+2024-03-22 22:40:18,733 Privileges dropped, running as nobody/nogroup.
+2024-03-22 22:41:27,363 New modbus session from 127.0.0.1 (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:27,363 New connection from 127.0.0.1:41890. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:32,375 Socket timeout, remote: 127.0.0.1. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:32,378 New connection from 127.0.0.1:41898. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:37,386 Socket timeout, remote: 127.0.0.1. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:37,389 New connection from 127.0.0.1:38560. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:42,395 Socket timeout, remote: 127.0.0.1. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:41:42,397 New connection from 127.0.0.1:38574. (8c0cf840-a12b-4cb4-93f6-3f437d54a531)
+2024-03-22 22:45:37,227 Stopping Conpot
+2024-03-22 22:45:37,228 HTTP server will shut down gracefully as soon as all connections are closed.
+2024-03-22 22:45:37,229 Session timed out: 8c0cf840-a12b-4cb4-93f6-3f437d54a531
+2024-03-22 22:45:37,230 New modbus session from 127.0.0.1 (2eb0e8c0-4573-4f5c-9b62-0ad6c4cd528f)
+2024-03-22 22:45:37,230 New connection from 127.0.0.1:47178. (2eb0e8c0-4573-4f5c-9b62-0ad6c4cd528f)
+2024-03-22 22:45:54,402 Starting Conpot using template: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot
+2024-03-22 22:45:54,403 Starting Conpot using configuration found in: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/conpot.cfg
+2024-03-22 22:45:54,405 Resetting databus.
+2024-03-22 22:45:54,406 Initializing databus using /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot/template.xml.
+2024-03-22 22:45:54,407 Initializing power_simulator with conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator as a function.
+2024-03-22 22:45:54,415 DataBus: Storing key: [power_simulator] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7ae2c28b9930>]
+2024-03-22 22:45:54,415 Initializing gridpot_obj with "" as a value.
+2024-03-22 22:45:54,416 DataBus: Storing key: [gridpot_obj] value: []
+2024-03-22 22:45:54,416 Initializing gridlabd_ip with "localhost" as a value.
+2024-03-22 22:45:54,417 DataBus: Storing key: [gridlabd_ip] value: [localhost]
+2024-03-22 22:45:54,417 Initializing gridlabd_port with "6267" as a value.
+2024-03-22 22:45:54,418 DataBus: Storing key: [gridlabd_port] value: [6267]
+2024-03-22 22:45:54,418 Initializing gridpotmodel_file with "IEEE_13_Node_Test_Feeder.gpm" as a value.
+2024-03-22 22:45:54,418 DataBus: Storing key: [gridpotmodel_file] value: [IEEE_13_Node_Test_Feeder.gpm]
+2024-03-22 22:45:54,419 Initializing conpot_name with "conpot1" as a value.
+2024-03-22 22:45:54,419 DataBus: Storing key: [conpot_name] value: [conpot1]
+2024-03-22 22:45:54,420 Initializing FacilityName with "Mouser Factory" as a value.
+2024-03-22 22:45:54,420 DataBus: Storing key: [FacilityName] value: [Mouser Factory]
+2024-03-22 22:45:54,420 Initializing SystemName with "Mars Solar Power Co" as a value.
+2024-03-22 22:45:54,421 DataBus: Storing key: [SystemName] value: [Mars Solar Power Co]
+2024-03-22 22:45:54,421 Initializing SystemDescription with "Siemens, SIMATIC, S7-200" as a value.
+2024-03-22 22:45:54,421 DataBus: Storing key: [SystemDescription] value: [Siemens, SIMATIC, S7-200]
+2024-03-22 22:45:54,422 Initializing Uptime with conpot.emulators.misc.uptime.Uptime as a function.
+2024-03-22 22:45:54,423 DataBus: Storing key: [Uptime] value: [<conpot.emulators.misc.uptime.Uptime object at 0x7ae2c28b8580>]
+2024-03-22 22:45:54,423 Initializing sysObjectID with "0.0" as a value.
+2024-03-22 22:45:54,424 DataBus: Storing key: [sysObjectID] value: [0.0]
+2024-03-22 22:45:54,424 Initializing sysContact with "Siemens AG" as a value.
+2024-03-22 22:45:54,425 DataBus: Storing key: [sysContact] value: [Siemens AG]
+2024-03-22 22:45:54,425 Initializing sysName with "CP 443-1 EX40" as a value.
+2024-03-22 22:45:54,425 DataBus: Storing key: [sysName] value: [CP 443-1 EX40]
+2024-03-22 22:45:54,426 Initializing sysLocation with "Venus" as a value.
+2024-03-22 22:45:54,426 DataBus: Storing key: [sysLocation] value: [Venus]
+2024-03-22 22:45:54,427 Initializing sysServices with "72" as a value.
+2024-03-22 22:45:54,427 DataBus: Storing key: [sysServices] value: [72]
+2024-03-22 22:45:54,428 Initializing memoryModbusSlave1BlockA with [random.randint(0,1) for b in range(0,128)] as a value.
+2024-03-22 22:45:54,428 DataBus: Storing key: [memoryModbusSlave1BlockA] value: [[1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0]]
+2024-03-22 22:45:54,429 Initializing memoryModbusSlave1BlockB with [random.randint(0,1) for b in range(0,32)] as a value.
+2024-03-22 22:45:54,429 DataBus: Storing key: [memoryModbusSlave1BlockB] value: [[1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0]]
+2024-03-22 22:45:54,429 Initializing memoryModbusSlave2BlockC with [random.randint(0,1) for b in range(0,8)] as a value.
+2024-03-22 22:45:54,429 DataBus: Storing key: [memoryModbusSlave2BlockC] value: [[1, 1, 1, 0, 1, 0, 0, 1]]
+2024-03-22 22:45:54,429 Initializing memoryModbusSlave2BlockD with [0 for b in range(0,32)] as a value.
+2024-03-22 22:45:54,429 DataBus: Storing key: [memoryModbusSlave2BlockD] value: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+2024-03-22 22:45:54,429 Initializing Copyright with "Original Siemens Equipment" as a value.
+2024-03-22 22:45:54,429 DataBus: Storing key: [Copyright] value: [Original Siemens Equipment]
+2024-03-22 22:45:54,429 Initializing s7_id with "88111222" as a value.
+2024-03-22 22:45:54,430 DataBus: Storing key: [s7_id] value: [88111222]
+2024-03-22 22:45:54,430 Initializing s7_module_type with "IM151-8 PN/DP CPU" as a value.
+2024-03-22 22:45:54,430 DataBus: Storing key: [s7_module_type] value: [IM151-8 PN/DP CPU]
+2024-03-22 22:45:54,430 Initializing empty with "" as a value.
+2024-03-22 22:45:54,430 DataBus: Storing key: [empty] value: []
+2024-03-22 22:45:54,434 DataBus: Get value from key: [conpot_name]
+2024-03-22 22:45:54,434 DataBus: Get value from key: [gridpotmodel_file]
+2024-03-22 22:45:54,434 DataBus: Get value from key: [gridlabd_ip]
+2024-03-22 22:45:54,435 DataBus: Get value from key: [gridlabd_port]
+2024-03-22 22:45:54,435 DataBus: Storing key: [gridpot_obj] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7ae2c28b9930>]
+2024-03-22 22:45:54,451 Starting new HTTP connection (1): www.telize.com:80
+2024-03-22 22:45:54,852 http://www.telize.com:80 "GET /ip HTTP/1.1" 301 162
+2024-03-22 22:45:54,855 Starting new HTTPS connection (1): www.telize.com:443
+2024-03-22 22:45:55,559 Could not fetch public ip from http://www.telize.com/ip
+2024-03-22 22:45:55,562 Starting new HTTP connection (1): queryip.net:80
+2024-03-22 22:45:55,722 Could not fetch public ip from http://queryip.net/ip/
+2024-03-22 22:45:55,724 Starting new HTTP connection (1): ifconfig.me:80
+2024-03-22 22:45:56,169 http://ifconfig.me:80 "GET /ip HTTP/1.1" 200 15
+2024-03-22 22:45:56,172 Fetched 122.164.243.229 as external ip.
+2024-03-22 22:45:56,175 Added slave with id 1.
+2024-03-22 22:45:56,175 DataBus: Get value from key: [memoryModbusSlave1BlockA]
+2024-03-22 22:45:56,176 Added block memoryModbusSlave1BlockA to slave 1. (type=1, start=1, size=128)
+2024-03-22 22:45:56,177 DataBus: Get value from key: [memoryModbusSlave1BlockB]
+2024-03-22 22:45:56,177 Added block memoryModbusSlave1BlockB to slave 1. (type=2, start=10001, size=32)
+2024-03-22 22:45:56,178 Added slave with id 2.
+2024-03-22 22:45:56,178 DataBus: Get value from key: [memoryModbusSlave2BlockC]
+2024-03-22 22:45:56,179 Added block memoryModbusSlave2BlockC to slave 2. (type=4, start=30001, size=8)
+2024-03-22 22:45:56,179 DataBus: Get value from key: [memoryModbusSlave2BlockD]
+2024-03-22 22:45:56,179 Added block memoryModbusSlave2BlockD to slave 2. (type=3, start=40001, size=8)
+2024-03-22 22:45:56,180 Conpot modbus initialized
+2024-03-22 22:45:56,180 Found and enabled ('modbus', <class 'conpot.protocols.modbus.modbus_server.ModbusServer'>) protocol.
+2024-03-22 22:45:56,183 Conpot debug info: S7 SSL/SZL: {'W#16#xy1C': {'W#16#0001': 'SystemName', 'W#16#0002': 'SystemDescription', 'W#16#0003': 'FacilityName', 'W#16#0004': 'Copyright', 'W#16#0005': 's7_id', 'W#16#0007': 's7_module_type', 'W#16#000A': 'empty', 'W#16#000B': 'empty'}, 'W#16#xy11': {'W#16#0001': 'empty', 'W#16#0006': 'empty'}}
+2024-03-22 22:45:56,183 Conpot S7Comm initialized
+2024-03-22 22:45:56,184 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2024-03-22 22:45:56,184 No kamstrup_meter template found. Service will remain unconfigured/stopped.
+2024-03-22 22:45:56,184 No kamstrup_management template found. Service will remain unconfigured/stopped.
+2024-03-22 22:45:56,186 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2024-03-22 22:45:56,188 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2024-03-22 22:45:56,188 No proxy template found. Service will remain unconfigured/stopped.
+2024-03-22 22:45:56,189 Modbus server started on: ('0.0.0.0', 502)
+2024-03-22 22:45:56,189 S7Comm server started on: ('0.0.0.0', 102)
+2024-03-22 22:45:56,190 HTTP server started on: ('0.0.0.0', 80)
+2024-03-22 22:45:56,391 Done scanning for mib files, recursive scan was initiated from 1 directories and found 0 MIB files of 0 scanned files.
+2024-03-22 22:45:56,392 DataBus: Get value from key: [SystemDescription]
+2024-03-22 22:45:56,399 Registered: OID (1, 3, 6, 1, 2, 1, 1, 1) Instance (0,) ASN.1 (sysDescr @ SNMPv2-MIB) value Siemens, SIMATIC, S7-200 dynrsp.
+2024-03-22 22:45:56,400 DataBus: Get value from key: [Uptime]
+2024-03-22 22:45:56,406 Registered: OID (1, 3, 6, 1, 2, 1, 1, 3) Instance (0,) ASN.1 (sysUpTime @ SNMPv2-MIB) value 2 dynrsp.
+2024-03-22 22:45:56,407 DataBus: Get value from key: [sysContact]
+2024-03-22 22:45:56,414 Registered: OID (1, 3, 6, 1, 2, 1, 1, 4) Instance (0,) ASN.1 (sysContact @ SNMPv2-MIB) value Siemens AG dynrsp.
+2024-03-22 22:45:56,415 DataBus: Get value from key: [sysName]
+2024-03-22 22:45:56,423 Registered: OID (1, 3, 6, 1, 2, 1, 1, 5) Instance (0,) ASN.1 (sysName @ SNMPv2-MIB) value CP 443-1 EX40 dynrsp.
+2024-03-22 22:45:56,424 DataBus: Get value from key: [sysLocation]
+2024-03-22 22:45:56,432 Registered: OID (1, 3, 6, 1, 2, 1, 1, 6) Instance (0,) ASN.1 (sysLocation @ SNMPv2-MIB) value Venus dynrsp.
+2024-03-22 22:45:56,433 DataBus: Get value from key: [sysServices]
+2024-03-22 22:45:56,441 Registered: OID (1, 3, 6, 1, 2, 1, 1, 7) Instance (0,) ASN.1 (sysServices @ SNMPv2-MIB) value 72 dynrsp.
+2024-03-22 22:45:56,442 SNMP server started on: ('0.0.0.0', 161)
+2024-03-22 22:46:01,191 Privileges dropped, running as nobody/nogroup.
+2024-03-22 22:50:59,112 Stopping Conpot
+2024-03-22 22:50:59,113 HTTP server will shut down gracefully as soon as all connections are closed.
+2024-03-22 22:51:02,636 Starting Conpot using template: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot
+2024-03-22 22:51:02,637 Starting Conpot using configuration found in: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/conpot.cfg
+2024-03-22 22:51:02,640 Resetting databus.
+2024-03-22 22:51:02,640 Initializing databus using /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot/template.xml.
+2024-03-22 22:51:02,641 Initializing power_simulator with conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator as a function.
+2024-03-22 22:51:02,649 DataBus: Storing key: [power_simulator] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x708f785e1e70>]
+2024-03-22 22:51:02,649 Initializing gridpot_obj with "" as a value.
+2024-03-22 22:51:02,650 DataBus: Storing key: [gridpot_obj] value: []
+2024-03-22 22:51:02,650 Initializing gridlabd_ip with "localhost" as a value.
+2024-03-22 22:51:02,651 DataBus: Storing key: [gridlabd_ip] value: [localhost]
+2024-03-22 22:51:02,651 Initializing gridlabd_port with "6267" as a value.
+2024-03-22 22:51:02,652 DataBus: Storing key: [gridlabd_port] value: [6267]
+2024-03-22 22:51:02,652 Initializing gridpotmodel_file with "IEEE_13_Node_Test_Feeder.gpm" as a value.
+2024-03-22 22:51:02,652 DataBus: Storing key: [gridpotmodel_file] value: [IEEE_13_Node_Test_Feeder.gpm]
+2024-03-22 22:51:02,653 Initializing conpot_name with "conpot1" as a value.
+2024-03-22 22:51:02,653 DataBus: Storing key: [conpot_name] value: [conpot1]
+2024-03-22 22:51:02,653 Initializing FacilityName with "Mouser Factory" as a value.
+2024-03-22 22:51:02,654 DataBus: Storing key: [FacilityName] value: [Mouser Factory]
+2024-03-22 22:51:02,654 Initializing SystemName with "Mars Solar Power Co" as a value.
+2024-03-22 22:51:02,654 DataBus: Storing key: [SystemName] value: [Mars Solar Power Co]
+2024-03-22 22:51:02,655 Initializing SystemDescription with "Siemens, SIMATIC, S7-200" as a value.
+2024-03-22 22:51:02,655 DataBus: Storing key: [SystemDescription] value: [Siemens, SIMATIC, S7-200]
+2024-03-22 22:51:02,655 Initializing Uptime with conpot.emulators.misc.uptime.Uptime as a function.
+2024-03-22 22:51:02,657 DataBus: Storing key: [Uptime] value: [<conpot.emulators.misc.uptime.Uptime object at 0x708f785e1510>]
+2024-03-22 22:51:02,658 Initializing sysObjectID with "0.0" as a value.
+2024-03-22 22:51:02,658 DataBus: Storing key: [sysObjectID] value: [0.0]
+2024-03-22 22:51:02,658 Initializing sysContact with "Siemens AG" as a value.
+2024-03-22 22:51:02,659 DataBus: Storing key: [sysContact] value: [Siemens AG]
+2024-03-22 22:51:02,659 Initializing sysName with "CP 443-1 EX40" as a value.
+2024-03-22 22:51:02,659 DataBus: Storing key: [sysName] value: [CP 443-1 EX40]
+2024-03-22 22:51:02,660 Initializing sysLocation with "Venus" as a value.
+2024-03-22 22:51:02,660 DataBus: Storing key: [sysLocation] value: [Venus]
+2024-03-22 22:51:02,660 Initializing sysServices with "72" as a value.
+2024-03-22 22:51:02,661 DataBus: Storing key: [sysServices] value: [72]
+2024-03-22 22:51:02,661 Initializing memoryModbusSlave1BlockA with [random.randint(0,1) for b in range(0,128)] as a value.
+2024-03-22 22:51:02,662 DataBus: Storing key: [memoryModbusSlave1BlockA] value: [[0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1]]
+2024-03-22 22:51:02,662 Initializing memoryModbusSlave1BlockB with [random.randint(0,1) for b in range(0,32)] as a value.
+2024-03-22 22:51:02,663 DataBus: Storing key: [memoryModbusSlave1BlockB] value: [[0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0]]
+2024-03-22 22:51:02,663 Initializing memoryModbusSlave2BlockC with [random.randint(0,1) for b in range(0,8)] as a value.
+2024-03-22 22:51:02,664 DataBus: Storing key: [memoryModbusSlave2BlockC] value: [[1, 1, 0, 0, 0, 0, 0, 1]]
+2024-03-22 22:51:02,664 Initializing memoryModbusSlave2BlockD with [0 for b in range(0,32)] as a value.
+2024-03-22 22:51:02,664 DataBus: Storing key: [memoryModbusSlave2BlockD] value: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+2024-03-22 22:51:02,665 Initializing Copyright with "Original Siemens Equipment" as a value.
+2024-03-22 22:51:02,665 DataBus: Storing key: [Copyright] value: [Original Siemens Equipment]
+2024-03-22 22:51:02,665 Initializing s7_id with "88111222" as a value.
+2024-03-22 22:51:02,665 DataBus: Storing key: [s7_id] value: [88111222]
+2024-03-22 22:51:02,665 Initializing s7_module_type with "IM151-8 PN/DP CPU" as a value.
+2024-03-22 22:51:02,666 DataBus: Storing key: [s7_module_type] value: [IM151-8 PN/DP CPU]
+2024-03-22 22:51:02,666 Initializing empty with "" as a value.
+2024-03-22 22:51:02,666 DataBus: Storing key: [empty] value: []
+2024-03-22 22:51:02,670 DataBus: Get value from key: [conpot_name]
+2024-03-22 22:51:02,670 DataBus: Get value from key: [gridpotmodel_file]
+2024-03-22 22:51:02,670 DataBus: Get value from key: [gridlabd_ip]
+2024-03-22 22:51:02,670 DataBus: Get value from key: [gridlabd_port]
+2024-03-22 22:51:02,671 DataBus: Storing key: [gridpot_obj] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x708f785e1e70>]
+2024-03-22 22:51:02,686 Starting new HTTP connection (1): www.telize.com:80
+2024-03-22 22:51:03,098 http://www.telize.com:80 "GET /ip HTTP/1.1" 301 162
+2024-03-22 22:51:03,101 Starting new HTTPS connection (1): www.telize.com:443
+2024-03-22 22:51:03,819 Could not fetch public ip from http://www.telize.com/ip
+2024-03-22 22:51:03,820 Starting new HTTP connection (1): queryip.net:80
+2024-03-22 22:51:03,978 Could not fetch public ip from http://queryip.net/ip/
+2024-03-22 22:51:03,981 Starting new HTTP connection (1): ifconfig.me:80
+2024-03-22 22:51:04,391 http://ifconfig.me:80 "GET /ip HTTP/1.1" 200 15
+2024-03-22 22:51:04,393 Fetched 122.164.243.229 as external ip.
+2024-03-22 22:51:04,394 Added slave with id 1.
+2024-03-22 22:51:04,395 DataBus: Get value from key: [memoryModbusSlave1BlockA]
+2024-03-22 22:51:04,395 Added block memoryModbusSlave1BlockA to slave 1. (type=1, start=1, size=128)
+2024-03-22 22:51:04,395 DataBus: Get value from key: [memoryModbusSlave1BlockB]
+2024-03-22 22:51:04,395 Added block memoryModbusSlave1BlockB to slave 1. (type=2, start=10001, size=32)
+2024-03-22 22:51:04,395 Added slave with id 2.
+2024-03-22 22:51:04,395 DataBus: Get value from key: [memoryModbusSlave2BlockC]
+2024-03-22 22:51:04,396 Added block memoryModbusSlave2BlockC to slave 2. (type=4, start=30001, size=8)
+2024-03-22 22:51:04,396 DataBus: Get value from key: [memoryModbusSlave2BlockD]
+2024-03-22 22:51:04,397 Added block memoryModbusSlave2BlockD to slave 2. (type=3, start=40001, size=8)
+2024-03-22 22:51:04,397 Conpot modbus initialized
+2024-03-22 22:51:04,397 Found and enabled ('modbus', <class 'conpot.protocols.modbus.modbus_server.ModbusServer'>) protocol.
+2024-03-22 22:51:04,401 Conpot debug info: S7 SSL/SZL: {'W#16#xy1C': {'W#16#0001': 'SystemName', 'W#16#0002': 'SystemDescription', 'W#16#0003': 'FacilityName', 'W#16#0004': 'Copyright', 'W#16#0005': 's7_id', 'W#16#0007': 's7_module_type', 'W#16#000A': 'empty', 'W#16#000B': 'empty'}, 'W#16#xy11': {'W#16#0001': 'empty', 'W#16#0006': 'empty'}}
+2024-03-22 22:51:04,401 Conpot S7Comm initialized
+2024-03-22 22:51:04,401 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2024-03-22 22:51:04,402 No kamstrup_meter template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:04,402 No kamstrup_management template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:04,404 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2024-03-22 22:51:04,406 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2024-03-22 22:51:04,407 No proxy template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:04,407 Modbus server started on: ('0.0.0.0', 502)
+2024-03-22 22:51:04,408 S7Comm server started on: ('0.0.0.0', 102)
+2024-03-22 22:51:04,408 HTTP server started on: ('0.0.0.0', 80)
+2024-03-22 22:51:04,649 Done scanning for mib files, recursive scan was initiated from 1 directories and found 0 MIB files of 0 scanned files.
+2024-03-22 22:51:04,649 DataBus: Get value from key: [SystemDescription]
+2024-03-22 22:51:04,658 Registered: OID (1, 3, 6, 1, 2, 1, 1, 1) Instance (0,) ASN.1 (sysDescr @ SNMPv2-MIB) value Siemens, SIMATIC, S7-200 dynrsp.
+2024-03-22 22:51:04,659 DataBus: Get value from key: [Uptime]
+2024-03-22 22:51:04,666 Registered: OID (1, 3, 6, 1, 2, 1, 1, 3) Instance (0,) ASN.1 (sysUpTime @ SNMPv2-MIB) value 2 dynrsp.
+2024-03-22 22:51:04,667 DataBus: Get value from key: [sysContact]
+2024-03-22 22:51:04,673 Registered: OID (1, 3, 6, 1, 2, 1, 1, 4) Instance (0,) ASN.1 (sysContact @ SNMPv2-MIB) value Siemens AG dynrsp.
+2024-03-22 22:51:04,674 DataBus: Get value from key: [sysName]
+2024-03-22 22:51:04,681 Registered: OID (1, 3, 6, 1, 2, 1, 1, 5) Instance (0,) ASN.1 (sysName @ SNMPv2-MIB) value CP 443-1 EX40 dynrsp.
+2024-03-22 22:51:04,682 DataBus: Get value from key: [sysLocation]
+2024-03-22 22:51:04,689 Registered: OID (1, 3, 6, 1, 2, 1, 1, 6) Instance (0,) ASN.1 (sysLocation @ SNMPv2-MIB) value Venus dynrsp.
+2024-03-22 22:51:04,690 DataBus: Get value from key: [sysServices]
+2024-03-22 22:51:04,696 Registered: OID (1, 3, 6, 1, 2, 1, 1, 7) Instance (0,) ASN.1 (sysServices @ SNMPv2-MIB) value 72 dynrsp.
+2024-03-22 22:51:04,697 SNMP server started on: ('0.0.0.0', 161)
+2024-03-22 22:51:09,409 Privileges dropped, running as nobody/nogroup.
+2024-03-22 22:51:40,540 Stopping Conpot
+2024-03-22 22:51:40,541 HTTP server will shut down gracefully as soon as all connections are closed.
+2024-03-22 22:51:44,719 Starting Conpot using template: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot
+2024-03-22 22:51:44,719 Starting Conpot using configuration found in: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/conpot.cfg
+2024-03-22 22:51:44,721 Resetting databus.
+2024-03-22 22:51:44,721 Initializing databus using /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot/template.xml.
+2024-03-22 22:51:44,721 Initializing power_simulator with conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator as a function.
+2024-03-22 22:51:44,724 DataBus: Storing key: [power_simulator] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x730e0c7e5b10>]
+2024-03-22 22:51:44,724 Initializing gridpot_obj with "" as a value.
+2024-03-22 22:51:44,724 DataBus: Storing key: [gridpot_obj] value: []
+2024-03-22 22:51:44,724 Initializing gridlabd_ip with "localhost" as a value.
+2024-03-22 22:51:44,724 DataBus: Storing key: [gridlabd_ip] value: [localhost]
+2024-03-22 22:51:44,724 Initializing gridlabd_port with "6267" as a value.
+2024-03-22 22:51:44,724 DataBus: Storing key: [gridlabd_port] value: [6267]
+2024-03-22 22:51:44,724 Initializing gridpotmodel_file with "IEEE_13_Node_Test_Feeder.gpm" as a value.
+2024-03-22 22:51:44,724 DataBus: Storing key: [gridpotmodel_file] value: [IEEE_13_Node_Test_Feeder.gpm]
+2024-03-22 22:51:44,725 Initializing conpot_name with "conpot1" as a value.
+2024-03-22 22:51:44,725 DataBus: Storing key: [conpot_name] value: [conpot1]
+2024-03-22 22:51:44,725 Initializing FacilityName with "Mouser Factory" as a value.
+2024-03-22 22:51:44,725 DataBus: Storing key: [FacilityName] value: [Mouser Factory]
+2024-03-22 22:51:44,725 Initializing SystemName with "Mars Solar Power Co" as a value.
+2024-03-22 22:51:44,725 DataBus: Storing key: [SystemName] value: [Mars Solar Power Co]
+2024-03-22 22:51:44,725 Initializing SystemDescription with "Siemens, SIMATIC, S7-200" as a value.
+2024-03-22 22:51:44,725 DataBus: Storing key: [SystemDescription] value: [Siemens, SIMATIC, S7-200]
+2024-03-22 22:51:44,725 Initializing Uptime with conpot.emulators.misc.uptime.Uptime as a function.
+2024-03-22 22:51:44,725 DataBus: Storing key: [Uptime] value: [<conpot.emulators.misc.uptime.Uptime object at 0x730e0c7e4760>]
+2024-03-22 22:51:44,726 Initializing sysObjectID with "0.0" as a value.
+2024-03-22 22:51:44,726 DataBus: Storing key: [sysObjectID] value: [0.0]
+2024-03-22 22:51:44,726 Initializing sysContact with "Siemens AG" as a value.
+2024-03-22 22:51:44,726 DataBus: Storing key: [sysContact] value: [Siemens AG]
+2024-03-22 22:51:44,726 Initializing sysName with "CP 443-1 EX40" as a value.
+2024-03-22 22:51:44,726 DataBus: Storing key: [sysName] value: [CP 443-1 EX40]
+2024-03-22 22:51:44,726 Initializing sysLocation with "Venus" as a value.
+2024-03-22 22:51:44,726 DataBus: Storing key: [sysLocation] value: [Venus]
+2024-03-22 22:51:44,726 Initializing sysServices with "72" as a value.
+2024-03-22 22:51:44,726 DataBus: Storing key: [sysServices] value: [72]
+2024-03-22 22:51:44,726 Initializing memoryModbusSlave1BlockA with [random.randint(0,1) for b in range(0,128)] as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [memoryModbusSlave1BlockA] value: [[1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0]]
+2024-03-22 22:51:44,727 Initializing memoryModbusSlave1BlockB with [random.randint(0,1) for b in range(0,32)] as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [memoryModbusSlave1BlockB] value: [[0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1]]
+2024-03-22 22:51:44,727 Initializing memoryModbusSlave2BlockC with [random.randint(0,1) for b in range(0,8)] as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [memoryModbusSlave2BlockC] value: [[1, 1, 0, 1, 0, 0, 1, 1]]
+2024-03-22 22:51:44,727 Initializing memoryModbusSlave2BlockD with [0 for b in range(0,32)] as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [memoryModbusSlave2BlockD] value: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+2024-03-22 22:51:44,727 Initializing Copyright with "Original Siemens Equipment" as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [Copyright] value: [Original Siemens Equipment]
+2024-03-22 22:51:44,727 Initializing s7_id with "88111222" as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [s7_id] value: [88111222]
+2024-03-22 22:51:44,727 Initializing s7_module_type with "IM151-8 PN/DP CPU" as a value.
+2024-03-22 22:51:44,727 DataBus: Storing key: [s7_module_type] value: [IM151-8 PN/DP CPU]
+2024-03-22 22:51:44,728 Initializing empty with "" as a value.
+2024-03-22 22:51:44,728 DataBus: Storing key: [empty] value: []
+2024-03-22 22:51:44,729 DataBus: Get value from key: [conpot_name]
+2024-03-22 22:51:44,729 DataBus: Get value from key: [gridpotmodel_file]
+2024-03-22 22:51:44,729 DataBus: Get value from key: [gridlabd_ip]
+2024-03-22 22:51:44,730 DataBus: Get value from key: [gridlabd_port]
+2024-03-22 22:51:44,730 DataBus: Storing key: [gridpot_obj] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x730e0c7e5b10>]
+2024-03-22 22:51:44,747 Starting new HTTP connection (1): www.telize.com:80
+2024-03-22 22:51:45,098 http://www.telize.com:80 "GET /ip HTTP/1.1" 301 162
+2024-03-22 22:51:45,101 Starting new HTTPS connection (1): www.telize.com:443
+2024-03-22 22:51:45,818 Could not fetch public ip from http://www.telize.com/ip
+2024-03-22 22:51:45,821 Starting new HTTP connection (1): queryip.net:80
+2024-03-22 22:51:45,830 Could not fetch public ip from http://queryip.net/ip/
+2024-03-22 22:51:45,832 Starting new HTTP connection (1): ifconfig.me:80
+2024-03-22 22:51:46,160 http://ifconfig.me:80 "GET /ip HTTP/1.1" 200 15
+2024-03-22 22:51:46,162 Fetched 122.164.243.229 as external ip.
+2024-03-22 22:51:46,164 Added slave with id 1.
+2024-03-22 22:51:46,165 DataBus: Get value from key: [memoryModbusSlave1BlockA]
+2024-03-22 22:51:46,165 Added block memoryModbusSlave1BlockA to slave 1. (type=1, start=1, size=128)
+2024-03-22 22:51:46,166 DataBus: Get value from key: [memoryModbusSlave1BlockB]
+2024-03-22 22:51:46,166 Added block memoryModbusSlave1BlockB to slave 1. (type=2, start=10001, size=32)
+2024-03-22 22:51:46,167 Added slave with id 2.
+2024-03-22 22:51:46,167 DataBus: Get value from key: [memoryModbusSlave2BlockC]
+2024-03-22 22:51:46,167 Added block memoryModbusSlave2BlockC to slave 2. (type=4, start=30001, size=8)
+2024-03-22 22:51:46,168 DataBus: Get value from key: [memoryModbusSlave2BlockD]
+2024-03-22 22:51:46,169 Added block memoryModbusSlave2BlockD to slave 2. (type=3, start=40001, size=8)
+2024-03-22 22:51:46,169 Conpot modbus initialized
+2024-03-22 22:51:46,171 Found and enabled ('modbus', <class 'conpot.protocols.modbus.modbus_server.ModbusServer'>) protocol.
+2024-03-22 22:51:46,173 Conpot debug info: S7 SSL/SZL: {'W#16#xy1C': {'W#16#0001': 'SystemName', 'W#16#0002': 'SystemDescription', 'W#16#0003': 'FacilityName', 'W#16#0004': 'Copyright', 'W#16#0005': 's7_id', 'W#16#0007': 's7_module_type', 'W#16#000A': 'empty', 'W#16#000B': 'empty'}, 'W#16#xy11': {'W#16#0001': 'empty', 'W#16#0006': 'empty'}}
+2024-03-22 22:51:46,173 Conpot S7Comm initialized
+2024-03-22 22:51:46,173 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2024-03-22 22:51:46,174 No kamstrup_meter template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:46,174 No kamstrup_management template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:46,175 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2024-03-22 22:51:46,176 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2024-03-22 22:51:46,177 No proxy template found. Service will remain unconfigured/stopped.
+2024-03-22 22:51:46,177 Modbus server started on: ('0.0.0.0', 502)
+2024-03-22 22:51:46,178 S7Comm server started on: ('0.0.0.0', 102)
+2024-03-22 22:51:46,178 HTTP server started on: ('0.0.0.0', 80)
+2024-03-22 22:51:46,420 Done scanning for mib files, recursive scan was initiated from 1 directories and found 0 MIB files of 0 scanned files.
+2024-03-22 22:51:46,421 DataBus: Get value from key: [SystemDescription]
+2024-03-22 22:51:46,428 Registered: OID (1, 3, 6, 1, 2, 1, 1, 1) Instance (0,) ASN.1 (sysDescr @ SNMPv2-MIB) value Siemens, SIMATIC, S7-200 dynrsp.
+2024-03-22 22:51:46,429 DataBus: Get value from key: [Uptime]
+2024-03-22 22:51:46,435 Registered: OID (1, 3, 6, 1, 2, 1, 1, 3) Instance (0,) ASN.1 (sysUpTime @ SNMPv2-MIB) value 2 dynrsp.
+2024-03-22 22:51:46,435 DataBus: Get value from key: [sysContact]
+2024-03-22 22:51:46,442 Registered: OID (1, 3, 6, 1, 2, 1, 1, 4) Instance (0,) ASN.1 (sysContact @ SNMPv2-MIB) value Siemens AG dynrsp.
+2024-03-22 22:51:46,443 DataBus: Get value from key: [sysName]
+2024-03-22 22:51:46,451 Registered: OID (1, 3, 6, 1, 2, 1, 1, 5) Instance (0,) ASN.1 (sysName @ SNMPv2-MIB) value CP 443-1 EX40 dynrsp.
+2024-03-22 22:51:46,452 DataBus: Get value from key: [sysLocation]
+2024-03-22 22:51:46,459 Registered: OID (1, 3, 6, 1, 2, 1, 1, 6) Instance (0,) ASN.1 (sysLocation @ SNMPv2-MIB) value Venus dynrsp.
+2024-03-22 22:51:46,460 DataBus: Get value from key: [sysServices]
+2024-03-22 22:51:46,466 Registered: OID (1, 3, 6, 1, 2, 1, 1, 7) Instance (0,) ASN.1 (sysServices @ SNMPv2-MIB) value 72 dynrsp.
+2024-03-22 22:51:46,467 SNMP server started on: ('0.0.0.0', 161)
+2024-03-22 22:51:51,179 Privileges dropped, running as nobody/nogroup.
+2024-03-22 22:53:00,486 New s7comm session from 127.0.0.1 (d0a4d397-e91c-4c33-952f-26e2c7f0df88)
+2024-03-22 22:53:00,486 New connection from 127.0.0.1:37096. (d0a4d397-e91c-4c33-952f-26e2c7f0df88)
+2024-03-22 22:53:21,515 New modbus session from 127.0.0.1 (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:53:21,516 New connection from 127.0.0.1:38610. (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:53:26,535 Socket timeout, remote: 127.0.0.1. (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:53:26,537 New connection from 127.0.0.1:57660. (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:53:30,549 Session timed out: d0a4d397-e91c-4c33-952f-26e2c7f0df88
+2024-03-22 22:53:31,544 Socket timeout, remote: 127.0.0.1. (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:53:31,547 New connection from 127.0.0.1:57672. (cd757514-ef6a-4bd1-b0a5-805fff12fb6d)
+2024-03-22 22:54:14,263 Stopping Conpot
+2024-03-22 22:54:14,263 HTTP server will shut down gracefully as soon as all connections are closed.
+2024-03-22 22:54:14,264 Session timed out: cd757514-ef6a-4bd1-b0a5-805fff12fb6d
+2024-03-22 22:54:14,265 New modbus session from 127.0.0.1 (af4c9f19-1d09-4c77-9138-06b6256f28b8)
+2024-03-22 22:54:14,265 New connection from 127.0.0.1:57830. (af4c9f19-1d09-4c77-9138-06b6256f28b8)
+2024-03-22 22:54:19,601 Starting Conpot using template: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot
+2024-03-22 22:54:19,601 Starting Conpot using configuration found in: /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/conpot.cfg
+2024-03-22 22:54:19,604 Resetting databus.
+2024-03-22 22:54:19,604 Initializing databus using /usr/local/lib/python3.10/dist-packages/conpot-0.4.0-py3.10.egg/conpot/templates/gridpot/template.xml.
+2024-03-22 22:54:19,605 Initializing power_simulator with conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator as a function.
+2024-03-22 22:54:19,612 DataBus: Storing key: [power_simulator] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7a907abc59f0>]
+2024-03-22 22:54:19,612 Initializing gridpot_obj with "" as a value.
+2024-03-22 22:54:19,612 DataBus: Storing key: [gridpot_obj] value: []
+2024-03-22 22:54:19,612 Initializing gridlabd_ip with "localhost" as a value.
+2024-03-22 22:54:19,613 DataBus: Storing key: [gridlabd_ip] value: [localhost]
+2024-03-22 22:54:19,613 Initializing gridlabd_port with "6267" as a value.
+2024-03-22 22:54:19,613 DataBus: Storing key: [gridlabd_port] value: [6267]
+2024-03-22 22:54:19,613 Initializing gridpotmodel_file with "IEEE_13_Node_Test_Feeder.gpm" as a value.
+2024-03-22 22:54:19,613 DataBus: Storing key: [gridpotmodel_file] value: [IEEE_13_Node_Test_Feeder.gpm]
+2024-03-22 22:54:19,613 Initializing conpot_name with "conpot1" as a value.
+2024-03-22 22:54:19,613 DataBus: Storing key: [conpot_name] value: [conpot1]
+2024-03-22 22:54:19,614 Initializing FacilityName with "Mouser Factory" as a value.
+2024-03-22 22:54:19,614 DataBus: Storing key: [FacilityName] value: [Mouser Factory]
+2024-03-22 22:54:19,614 Initializing SystemName with "Mars Solar Power Co" as a value.
+2024-03-22 22:54:19,614 DataBus: Storing key: [SystemName] value: [Mars Solar Power Co]
+2024-03-22 22:54:19,614 Initializing SystemDescription with "Siemens, SIMATIC, S7-200" as a value.
+2024-03-22 22:54:19,614 DataBus: Storing key: [SystemDescription] value: [Siemens, SIMATIC, S7-200]
+2024-03-22 22:54:19,614 Initializing Uptime with conpot.emulators.misc.uptime.Uptime as a function.
+2024-03-22 22:54:19,615 DataBus: Storing key: [Uptime] value: [<conpot.emulators.misc.uptime.Uptime object at 0x7a907abc4640>]
+2024-03-22 22:54:19,615 Initializing sysObjectID with "0.0" as a value.
+2024-03-22 22:54:19,615 DataBus: Storing key: [sysObjectID] value: [0.0]
+2024-03-22 22:54:19,616 Initializing sysContact with "Siemens AG" as a value.
+2024-03-22 22:54:19,616 DataBus: Storing key: [sysContact] value: [Siemens AG]
+2024-03-22 22:54:19,616 Initializing sysName with "CP 443-1 EX40" as a value.
+2024-03-22 22:54:19,616 DataBus: Storing key: [sysName] value: [CP 443-1 EX40]
+2024-03-22 22:54:19,616 Initializing sysLocation with "Venus" as a value.
+2024-03-22 22:54:19,616 DataBus: Storing key: [sysLocation] value: [Venus]
+2024-03-22 22:54:19,617 Initializing sysServices with "72" as a value.
+2024-03-22 22:54:19,617 DataBus: Storing key: [sysServices] value: [72]
+2024-03-22 22:54:19,617 Initializing memoryModbusSlave1BlockA with [random.randint(0,1) for b in range(0,128)] as a value.
+2024-03-22 22:54:19,617 DataBus: Storing key: [memoryModbusSlave1BlockA] value: [[1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+2024-03-22 22:54:19,617 Initializing memoryModbusSlave1BlockB with [random.randint(0,1) for b in range(0,32)] as a value.
+2024-03-22 22:54:19,618 DataBus: Storing key: [memoryModbusSlave1BlockB] value: [[1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1]]
+2024-03-22 22:54:19,618 Initializing memoryModbusSlave2BlockC with [random.randint(0,1) for b in range(0,8)] as a value.
+2024-03-22 22:54:19,618 DataBus: Storing key: [memoryModbusSlave2BlockC] value: [[0, 0, 0, 1, 1, 1, 0, 0]]
+2024-03-22 22:54:19,618 Initializing memoryModbusSlave2BlockD with [0 for b in range(0,32)] as a value.
+2024-03-22 22:54:19,618 DataBus: Storing key: [memoryModbusSlave2BlockD] value: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+2024-03-22 22:54:19,618 Initializing Copyright with "Original Siemens Equipment" as a value.
+2024-03-22 22:54:19,619 DataBus: Storing key: [Copyright] value: [Original Siemens Equipment]
+2024-03-22 22:54:19,619 Initializing s7_id with "88111222" as a value.
+2024-03-22 22:54:19,619 DataBus: Storing key: [s7_id] value: [88111222]
+2024-03-22 22:54:19,619 Initializing s7_module_type with "IM151-8 PN/DP CPU" as a value.
+2024-03-22 22:54:19,619 DataBus: Storing key: [s7_module_type] value: [IM151-8 PN/DP CPU]
+2024-03-22 22:54:19,619 Initializing empty with "" as a value.
+2024-03-22 22:54:19,619 DataBus: Storing key: [empty] value: []
+2024-03-22 22:54:19,621 DataBus: Get value from key: [conpot_name]
+2024-03-22 22:54:19,622 DataBus: Get value from key: [gridpotmodel_file]
+2024-03-22 22:54:19,622 DataBus: Get value from key: [gridlabd_ip]
+2024-03-22 22:54:19,622 DataBus: Get value from key: [gridlabd_port]
+2024-03-22 22:54:19,622 DataBus: Storing key: [gridpot_obj] value: [<conpot.protocols.gridpot.gridpot_simulator.GridPotSimulator object at 0x7a907abc59f0>]
+2024-03-22 22:54:19,639 Starting new HTTP connection (1): www.telize.com:80
+2024-03-22 22:54:19,993 http://www.telize.com:80 "GET /ip HTTP/1.1" 301 162
+2024-03-22 22:54:19,996 Starting new HTTPS connection (1): www.telize.com:443
+2024-03-22 22:54:20,730 Could not fetch public ip from http://www.telize.com/ip
+2024-03-22 22:54:20,732 Starting new HTTP connection (1): queryip.net:80
+2024-03-22 22:54:20,739 Could not fetch public ip from http://queryip.net/ip/
+2024-03-22 22:54:20,743 Starting new HTTP connection (1): ifconfig.me:80
+2024-03-22 22:54:21,160 http://ifconfig.me:80 "GET /ip HTTP/1.1" 200 15
+2024-03-22 22:54:21,162 Fetched 122.164.243.229 as external ip.
+2024-03-22 22:54:21,165 Added slave with id 1.
+2024-03-22 22:54:21,166 DataBus: Get value from key: [memoryModbusSlave1BlockA]
+2024-03-22 22:54:21,166 Added block memoryModbusSlave1BlockA to slave 1. (type=1, start=1, size=128)
+2024-03-22 22:54:21,167 DataBus: Get value from key: [memoryModbusSlave1BlockB]
+2024-03-22 22:54:21,167 Added block memoryModbusSlave1BlockB to slave 1. (type=2, start=10001, size=32)
+2024-03-22 22:54:21,167 Added slave with id 2.
+2024-03-22 22:54:21,168 DataBus: Get value from key: [memoryModbusSlave2BlockC]
+2024-03-22 22:54:21,168 Added block memoryModbusSlave2BlockC to slave 2. (type=4, start=30001, size=8)
+2024-03-22 22:54:21,168 DataBus: Get value from key: [memoryModbusSlave2BlockD]
+2024-03-22 22:54:21,169 Added block memoryModbusSlave2BlockD to slave 2. (type=3, start=40001, size=8)
+2024-03-22 22:54:21,169 Conpot modbus initialized
+2024-03-22 22:54:21,170 Found and enabled ('modbus', <class 'conpot.protocols.modbus.modbus_server.ModbusServer'>) protocol.
+2024-03-22 22:54:21,172 Conpot debug info: S7 SSL/SZL: {'W#16#xy1C': {'W#16#0001': 'SystemName', 'W#16#0002': 'SystemDescription', 'W#16#0003': 'FacilityName', 'W#16#0004': 'Copyright', 'W#16#0005': 's7_id', 'W#16#0007': 's7_module_type', 'W#16#000A': 'empty', 'W#16#000B': 'empty'}, 'W#16#xy11': {'W#16#0001': 'empty', 'W#16#0006': 'empty'}}
+2024-03-22 22:54:21,173 Conpot S7Comm initialized
+2024-03-22 22:54:21,173 Found and enabled ('s7comm', <class 'conpot.protocols.s7comm.s7_server.S7Server'>) protocol.
+2024-03-22 22:54:21,173 No kamstrup_meter template found. Service will remain unconfigured/stopped.
+2024-03-22 22:54:21,174 No kamstrup_management template found. Service will remain unconfigured/stopped.
+2024-03-22 22:54:21,176 Found and enabled ('http', <class 'conpot.protocols.http.web_server.HTTPServer'>) protocol.
+2024-03-22 22:54:21,177 Found and enabled ('snmp', <class 'conpot.protocols.snmp.snmp_server.SNMPServer'>) protocol.
+2024-03-22 22:54:21,178 No proxy template found. Service will remain unconfigured/stopped.
+2024-03-22 22:54:21,178 Modbus server started on: ('0.0.0.0', 502)
+2024-03-22 22:54:21,179 S7Comm server started on: ('0.0.0.0', 102)
+2024-03-22 22:54:21,180 HTTP server started on: ('0.0.0.0', 80)
+2024-03-22 22:54:21,420 Done scanning for mib files, recursive scan was initiated from 1 directories and found 0 MIB files of 0 scanned files.
+2024-03-22 22:54:21,421 DataBus: Get value from key: [SystemDescription]
+2024-03-22 22:54:21,429 Registered: OID (1, 3, 6, 1, 2, 1, 1, 1) Instance (0,) ASN.1 (sysDescr @ SNMPv2-MIB) value Siemens, SIMATIC, S7-200 dynrsp.
+2024-03-22 22:54:21,430 DataBus: Get value from key: [Uptime]
+2024-03-22 22:54:21,435 Registered: OID (1, 3, 6, 1, 2, 1, 1, 3) Instance (0,) ASN.1 (sysUpTime @ SNMPv2-MIB) value 2 dynrsp.
+2024-03-22 22:54:21,436 DataBus: Get value from key: [sysContact]
+2024-03-22 22:54:21,443 Registered: OID (1, 3, 6, 1, 2, 1, 1, 4) Instance (0,) ASN.1 (sysContact @ SNMPv2-MIB) value Siemens AG dynrsp.
+2024-03-22 22:54:21,444 DataBus: Get value from key: [sysName]
+2024-03-22 22:54:21,452 Registered: OID (1, 3, 6, 1, 2, 1, 1, 5) Instance (0,) ASN.1 (sysName @ SNMPv2-MIB) value CP 443-1 EX40 dynrsp.
+2024-03-22 22:54:21,453 DataBus: Get value from key: [sysLocation]
+2024-03-22 22:54:21,462 Registered: OID (1, 3, 6, 1, 2, 1, 1, 6) Instance (0,) ASN.1 (sysLocation @ SNMPv2-MIB) value Venus dynrsp.
+2024-03-22 22:54:21,462 DataBus: Get value from key: [sysServices]
+2024-03-22 22:54:21,470 Registered: OID (1, 3, 6, 1, 2, 1, 1, 7) Instance (0,) ASN.1 (sysServices @ SNMPv2-MIB) value 72 dynrsp.
+2024-03-22 22:54:21,471 SNMP server started on: ('0.0.0.0', 161)
+2024-03-22 22:54:26,181 Privileges dropped, running as nobody/nogroup.
+2024-03-22 22:54:30,877 Stopping Conpot
+2024-03-22 22:54:30,878 HTTP server will shut down gracefully as soon as all connections are closed.

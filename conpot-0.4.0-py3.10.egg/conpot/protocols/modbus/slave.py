@@ -126,3 +126,4 @@ class MBSlave(Slave):
             self._blocks[block_name] = (block_type, starting_address)
             # add it in the 'per type' shortcut
             self._memory[block_type].insert(index, ModbusBlockDatabusMediator(block_name, starting_address))
+
