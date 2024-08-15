@@ -77,8 +77,9 @@ class ModbusServer(modbus.Server):
 
                 # logdata is a dictionary containing request, slave_id, function_code and response
                 response, logdata = self._databank.handle_request(query, request)
-                logdata['request'] = request.encode('hex')
+                logdata['request'] = request.hex()  # Use .hex() for hexadecimal encoding in Python 3
                 session.add_event(logdata)
+
 
                 logger.debug('Modbus traffic from {0}: {1} ({2})'.format(address[0], logdata, session.id))
 

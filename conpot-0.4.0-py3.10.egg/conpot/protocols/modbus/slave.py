@@ -67,7 +67,7 @@ class MBSlave(Slave):
         with self._data_lock:  # thread-safe
             try:
                 # get the function code
-                (self.function_code, ) = struct.unpack(">B", request_pdu[0])
+                (self.function_code, ) = struct.unpack(">B", bytes([request_pdu[0]]))
 
                 # check if the function code is valid. If not returns error response
                 if not self.function_code in self._fn_code_map:

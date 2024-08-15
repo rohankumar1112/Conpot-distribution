@@ -45,7 +45,7 @@ class SlaveBase(Databank):
             # extract the pdu and the slave id
             slave_id, request_pdu = query.parse_request(request)
             if len(request_pdu) > 0:
-                (func_code, ) = struct.unpack(">B", request_pdu[0])
+                (func_code, ) = struct.unpack(">B",  bytes([request_pdu[0]]))
             # 43 is Device Information
             if func_code == 43:
                 # except will throw MissingKeyError
@@ -75,7 +75,9 @@ class SlaveBase(Databank):
         if slave:
             function_code = slave.function_code
 
-        return (response, {'request': request_pdu.encode('hex'),
-                           'slave_id': slave_id,
-                           'function_code': function_code,
-                           'response': response_pdu.encode('hex')})
+        return (response,  {
+            'request': request_pdu.hex(),  # Correct method for hex encoding in Python 3
+            'slave_id': slave_id,
+            'function_code': function_code,
+            'response': response_pdu.hex()  # Correct method for hex encoding in Python 3
+        })

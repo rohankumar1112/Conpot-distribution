@@ -19,7 +19,9 @@ class TPKT:
         self.packet_length = len(payload) + 4
 
     def pack(self):
-
+        print("********************************************")
+        print(type(pack('!BBH', self.version, self.reserved, self.packet_length) ))
+        print(type(self.payload))
         return pack('!BBH', self.version, self.reserved, self.packet_length) + str(self.payload)
 
     def parse(self, packet):
